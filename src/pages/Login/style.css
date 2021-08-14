@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/2334/hill-meadow-tree-green.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    width: 100%;
+    height: calc(100% - 80px);
+    margin: 40px 200px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-content{
+    width: 55%;
+    height: 100%;
+    background: #fff;
+    
+}
+
+.image-content{
+    width: 45%;
+    height: 100%;
+    background-image: url('../../IMG/219064362_1982565935234783_2613344064373494659_n.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.savina-logo{
+    /* background-color: red; */
+    
+    width: 130px;  
+    height: 30px;
+     
+    /* background-image: ('../../IMG/savina-logo.png'); */
+    background-image: url(http://savinapower.com/wp-content/uploads/savina-logo-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content{
+    margin: 10px auto;
+    height: 80%;
+    width: 60%;
+}
+
+.title-content{
+    font-size: 35px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 44px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.ant-tabs-tab-btn{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 10px;
+    font-weight: 400;
+}
+
+.ant-tabs-ink-bar{
+    background-color: greenyellow ;
+}
+
+/* .ant-btn-primary{
+    width: 100%;
+    background-color: #20DF7F;
+    border: 20px;
+    height: 40px;
+} */
+
+.btn-submit-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #20DF7F;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-submit-form:hover{
+    background-color: #1890ff;
+    /* color: #000; */
+
+}
+
+.forgot-password{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-register{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.ant-checkbox-wrapper{
+    margin-bottom: 10px;
+}

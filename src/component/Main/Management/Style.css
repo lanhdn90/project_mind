@@ -1,0 +1,310 @@
+
+.management-main-container .management-content
+.header-plant-information{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.management-main-container .management-content
+.header-plant-information .btn-edit-plant{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #99CC00;
+    color: #f8f8f8;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.management-main-container .management-content
+.header-plant-information .btn-delete-plant{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:red;
+    color: #f8f8f8;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.management-main-container .management-content
+.content-plant-information{
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.management-main-container .management-content
+.content-plant-information .text-plant-information{
+    width: 20%;
+    color: black;
+}
+
+.management-main-container .management-content
+.content-plant-information .values-plant-information{
+    display: flex;
+    color: #4E4E4E;
+}
+
+.main-inverter{
+    /* background-color: red; */
+    width: 100%;
+    height: 90%;
+    padding-top: 5px;
+}
+
+.main-inverter .item-inverter{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 8%;
+    background-color: #ffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.header-plant-information .group-btn-performance{
+    display: flex;
+}
+
+.main-performance-item-plant{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 90%;
+}
+
+.main-performance-item-plant .btn-title-performance{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: #F4F7FC;
+    border-radius: 10px;
+}
+
+.main-performance-item-plant .btn-title-performance
+.btn-performance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-performance-item-plant .btn-title-performance
+.btn-performance.irradiance{
+    background-color: #FFA800; 
+    color: #ffff;
+    border-radius: 10px 0 0 10px;
+}
+
+.main-performance-item-plant .btn-title-performance
+.btn-performance.monthly{
+    background-color: #FFA800; 
+    color: #ffff;
+    border-radius:  0 10px 10px 0;
+}
+
+.main-performance-item-plant .content-performance
+{
+    width: 100%;
+    height: 90%;
+    padding: 10px 5px ;
+}
+
+.main-performance-item-plant .content-performance
+.title-irradiance-performance{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.main-performance-item-plant .content-performance
+.item-irradiance-performance{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.main-performance-item-plant .content-performance
+.item-irradiance-performance .title-item-irradiance{
+    width: 55%;
+}
+
+.ant-form-item-control-input-content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.input-number{
+    width: 80px;
+}
+
+
+.main-performance-item-plant .content-performance
+.title-irradiance-performance p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.main-performance-item-plant .content-performance
+.title-irradiance-performance label {
+    cursor: pointer;
+    background-color: #FFA800;
+    padding-top: 3px;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffff;
+    font-weight: lighter;
+    font-size: 15px;
+ }
+
+
+
+ .management-main-container .management-content
+.main-gateway .list-devices{
+    /* padding: 0 10px; */
+    height: calc(100% - 140px);
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.header-list-devices{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    font-size: 15PX;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.header-list-devices .header-code{
+    width: 15%;
+    padding-left: 20px;
+    border-right: 1px solid #000;
+}
+
+.header-list-devices .header-label{
+    width: 20%;
+    padding-left: 20px;
+    border-right: 1px solid #000;
+}
+
+.header-list-devices .header-model{
+    width: 25%;
+    padding-left: 20px;
+    border-right: 1px solid #000;
+}
+
+.header-list-devices .header-statusDevices{
+    width: 15%;
+    text-align: center;
+    padding-left: 20px;
+    border-right: 1px solid #000;
+}
+
+.header-list-devices .header-lastActivityTime{
+    width: 25%;
+    text-align: center;     
+}
+
+.item-devices-listAll{
+    display: flex;
+    align-items: center;
+    height: calc(100% / 5 - 10px);
+    width: 100%;
+    cursor: pointer;
+    /* background-color: #99CC00; */
+}
+
+/* .hover-item-devices{
+    display: none;
+    width: 5px;
+    height: 100%;
+    background-color: #99CC00;
+} */
+
+.item-devices-listAll:hover  {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
+}
+
+.item-devices-listAll:hover  .hover-item-devices{
+    display: block;
+}
+
+.item-devices-listAll:hover  .code-devices-item{
+    width: calc(15% - 5px);
+    padding: 15px;
+}
+
+.item-devices-listAll .code-devices-item{
+    width: 15%;
+    padding-left: 20px;
+
+}
+
+.item-devices-listAll .label-devices-item{
+    width: 20%;
+}
+
+.item-devices-listAll .model-devices-item{
+    width: 25%;
+}
+
+.item-devices-listAll .status-devices-item.active{
+    width: 15%;
+    text-align: center;
+    background-color: #CDFFCD;
+    border-radius: 5px;
+}
+
+.item-devices-listAll .status-devices-item.inactive{
+    width: 15%;
+    text-align: center;
+    background-color: #747474;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+
+.item-devices-listAll .devices-activity-time{
+    width: 25%;
+    text-align: center;     
+}
+
+.footer-plant-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background-color: #ffff;
+}
+
+.content-gateway-information .values-devices-information{
+    color: #FF7900;
+}

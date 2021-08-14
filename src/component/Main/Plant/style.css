@@ -1,0 +1,240 @@
+.header-plant{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.header-item-plant{
+    margin: 0 5px;
+    background-color: #ffff;
+    width: calc(100% / 5);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.header-item-plant .plant-image-header{
+    width: 30%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-item-plant .plant-content-header{
+    display: block;
+    width: 70%;
+    font-size:  12PX;
+    margin: 40px 0;
+}
+
+.header-item-plant .plant-content-header .value-item-plant{
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.main-plant-one{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    overflow: auto;
+}
+
+.main-plant-one .chart-plant-one{
+    background-color: #ffff;
+    width: 70%;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.main-plant-one .report-plant-one{
+    display: block;
+    width: calc(100% - 70%);
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+
+.main-plant-one .report-plant-one .revenue-statistics{
+    padding: 5px;
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: #FFFF;
+    font-weight: 600;
+    display: block;
+}
+
+.main-plant-one .report-plant-one .revenue-statistics .title-revenue-statistics{
+    padding: 10px;
+    color: black;
+}
+
+.main-plant-one .report-plant-one .revenue-statistics
+ .content-revenue-statistics{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    margin: 10px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: normal;
+    border-bottom: 1px solid gray;
+}
+
+.value-item-statistics-one{
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(116, 51, 255, .1);
+    color: #5f2eeA;
+}
+
+.value-item-statistics-two{
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(88, 135, 255, .1);
+    color: #5f2eeA;
+}
+
+.value-item-statistics-three{
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(245, 91, 93, .1);
+
+    color: #f26464;
+}
+
+.value-item-statistics-four{
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(75, 222, 151, .1);
+    color: #4bde97;
+}
+
+.main-plant-one .report-plant-one .environmental{
+    /* padding: 10px; */
+    width: 100%;
+    height: calc(100% - 50% - 10px);
+    border-radius: 5px;
+    background-color: #FFFF;
+    /* background-color: #ff7300; */
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+}
+
+.main-plant-one .report-plant-one .environmental
+.title-environmental{
+    padding: 12px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px rgba(63, 63, 68, .05),
+    0px 1px 3px rgba(63, 63, 68, .15);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.main-plant-one .report-plant-one .environmental
+.item-environmental{
+    margin: 10px;
+    background-color: #ededf0;
+    height: 40px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    display: flex;
+}
+
+.main-plant-one .report-plant-one .environmental
+.item-environmental .icon-item-environmental{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.main-plant-one .report-plant-one .environmental
+.item-environmental .content-item-environmental{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 15%);
+    height: 100%;
+    font-size: 12px;
+    font-weight: normal; 
+}
+
+
+.main-plant-one .report-plant-one .environmental
+.item-environmental .content-item-environmental
+.value-item-environmental{
+    padding-right: 5px;
+}
+
+.item-environmental-one{
+    color: #ff7900;
+}
+
+.item-environmental-two{
+    color: #01A84E;
+}
+
+.main-plant-one .report-plant-one 
+.plant-performance{
+    width: 100%;
+    height: 550px;
+    border-radius: 5px;
+    background-color: #FFFF;
+    font-weight: 600;
+    display: block;
+}
+
+.main-plant-one .report-plant-one .plant-performance
+.title-plant-performance{
+    padding: 12px;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px rgba(63, 63, 68, .05),
+    0px 1px 3px rgba(63, 63, 68, .15);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.main-plant-one .report-plant-one .plant-performance
+.item-environmental{
+    margin: 10px;
+    /* background-color: #ededf0; */
+    height: 40px;
+    width: calc(100% - 20px);
+    border-bottom: 2px solid #ededf0;
+    display: flex;
+    font-size: 13px;
+}
+
+.main-plant-one .report-plant-one .plant-performance
+.icon-item-environmental{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.main-plant-one .report-plant-one .plant-performance
+.content-item-environmental{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 15%);
+    height: 100%;
+    font-size: 12px;
+    font-weight: normal; 
+}

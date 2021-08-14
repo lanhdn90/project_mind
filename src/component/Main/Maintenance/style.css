@@ -1,0 +1,95 @@
+.main-maintenance-plant{
+    height: calc(100vh - 96px);
+    /* background-color: red; */
+}
+.header-maintenance-info{
+    background-color: #fff;
+    height: 15%;
+    border-radius: 10px;
+}
+
+.header-maintenance-info .title-maintenance-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 40%;
+    font-weight: bold;
+    background-color: #FF7900;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+
+.details-maintenance{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.header-maintenance-info .content-maintenance-info{
+    display: flex;
+    align-items: center;
+    height: 60%;
+    padding: 20px;
+}
+
+.header-maintenance-info .content-maintenance-info
+.btn-maintenance{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15PX;
+   font-weight: bold;
+   cursor: pointer;
+   /* border-radius: 5px;
+   border: 1px solid black; */
+   width: 150px;
+   height: 30px;
+}
+
+.main-maintenance-plant .content-maintenance-list{
+    
+    margin-top: 20px;
+    height: calc(85% - 10px);
+    background-color: #Ffff;
+    border-radius: 10px;
+}
+
+.main-maintenance-plant .content-maintenance-list
+.header-maintenance-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 10%;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.title-maintenance-list input ,.title-maintenance-list  span{
+    color: #fff;
+    text-align: center;
+}
+
+.title-maintenance-list input{
+    width: 80px;
+
+}
+
+.title-maintenance-list .ant-picker{
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+}
+
+.test-dataPicker{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input-maintenance{
+    width: 555px;
+}
